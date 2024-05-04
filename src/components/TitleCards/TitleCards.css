@@ -26,6 +26,37 @@
     position: absolute;
     bottom: 10px;
     right: 10px;
+    text-decoration: none;
+    color: white;
 }
- 
+/*-------------------------media query--------------------*/
+
+@media (max-width:800px){
+    .cardtitles{
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .cardtitles h2{
+        font-size: 20px;
+    }
+    .card-list img{
+        width: 200px;
+    }
+    .card-list p{
+        font-size: 12px;
+    }
+}
+@media (max-width:500px){
+
+   
+    .cardtitles h2{
+        font-size: 15px;
+    }
+    .card-list img{
+        width: 165px;
+    }
+    .card-list p{
+        font-size: 10px;
+    }
+}
 

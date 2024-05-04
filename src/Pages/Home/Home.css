@@ -3,3 +3,9 @@
     
 
 }
+
+@media (max-width:800px){
+    .more-cards{
+        padding-left: 4%;
+    }
+}

@@ -15,7 +15,7 @@ const Footer = () => {
       <img src={twitter_icon} alt='youtube'></img>
     </div>
     <ul>
-      <li>Audi Description</li>
+      <li>Audio Description</li>
       <li>Help Center</li>
       <li>Gift Cards</li>
       <li>Media Center</li>
