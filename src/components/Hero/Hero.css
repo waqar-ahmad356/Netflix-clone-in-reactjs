@@ -1,36 +1,51 @@
-.hero{
+/* Styles for the hero container */
+.hero {
     position: relative;
-}
-.banner-img{
+  }
+  
+  /* Styles for the banner image */
+  .banner-img {
     width: 100%;
-    mask-image:  linear-gradient(to right,transparent,black 75%);
-    -webkit-mask-image:linear-gradient(to right,transparent,black 75%);
-}
-.hero-caption{
+    mask-image: linear-gradient(to right, transparent, black 75%);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 75%);
+  }
+  
+  /* Styles for the hero caption */
+  .hero-caption {
     position: absolute;
     width: 100%;
     padding-left: 6%;
     bottom: 0;
-}
-.caption-img{
+  }
+  
+  /* Styles for the title image */
+  .caption-img {
     width: 90%;
     max-width: 420px;
     margin-bottom: 30px;
-}
-.hero-caption p{
+  }
+  
+  /* Styles for the hero caption paragraph */
+  .hero-caption p {
     max-width: 700px;
     font-size: 17px;
     margin-bottom: 30px;
-}
-.hero-btns{
+  }
+  
+  /* Styles for the hero buttons */
+  .hero-btns {
     display: flex;
     gap: 10px;
     margin-bottom: 50px;
-}
-.hero-btns .btn img{
+  }
+  
+  /* Styles for the button icons */
+  .hero-btns .btn img {
     width: 25px;
-}
-.hero-btns .btn{
+  }
+  
+  /* Styles for the buttons */
+  .hero-btns .btn {
     border: 0;
     outline: 0;
     padding: 8px 20px;
@@ -42,57 +57,67 @@
     background: white;
     border-radius: 4px;
     cursor: pointer;
-}
-.hero-btns .btn.dark-btn{
+  }
+  
+  /* Styles for the dark button */
+  .hero-btns .btn.dark-btn {
     color: white;
     background: #6d6eb3;
-
-}
-.hero-btns .btn:hover{
-    background: #ffffffbf;
-}
-.hero-btns .btn.dark-btn:hover{
-    background: #6d6e66;
-
-}
-
-/*---------------------media query---------------------*/
-
-@media (max-width:1050px){
+  }
   
-    .caption-card{
-        display: none;
+  /* Hover styles for buttons */
+  .hero-btns .btn:hover {
+    background: #ffffffbf;
+  }
+  
+  .hero-btns .btn.dark-btn:hover {
+    background: #6d6e66;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width:1050px) {
+    .caption-card {
+      display: none;
     }
-    .hero-btns{
-        margin-bottom: 30px;
+    
+    .hero-btns {
+      margin-bottom: 30px;
     }
-}
-@media (max-width:800px){
-    .hero-caption{
-        padding-left: 4%;
+  }
+  
+  @media (max-width:800px) {
+    .hero-caption {
+      padding-left: 4%;
     }
-    .caption-img{
-        margin-bottom: 10px;
-        width: 40%;
+    
+    .caption-img {
+      margin-bottom: 10px;
+      width: 40%;
     }
-    .hero-caption p{
-        font-size: 12px;
-        margin-bottom: 10px;
+    
+    .hero-caption p {
+      font-size: 12px;
+      margin-bottom: 10px;
     }
-    .hero-btns .btn img{
-        width: 20px;
+    
+    .hero-btns .btn img {
+      width: 20px;
     }
-}
-@media (max-width:500px){
-    .caption-img{
-        display: none;
+  }
+  
+  @media (max-width:500px) {
+    .caption-img {
+      display: none;
     }
-    .hero-btns.btn img{
-        width: 15px;
+    
+    .hero-btns.btn img {
+      width: 15px;
     }
-    .hero-btns .btn{
-        padding: 4px 10px;
-        gap: 5px;
-        font-size: 10px;
+    
+    .hero-btns .btn {
+      padding: 4px 10px;
+      gap: 5px;
+      font-size: 10px;
     }
-}
+  }
+  

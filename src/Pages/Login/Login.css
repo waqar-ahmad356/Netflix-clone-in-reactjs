@@ -1,25 +1,34 @@
-.login{
-height: 100vh;
-background-image: linear-gradient(#0000007e,#0000007e), url(/background_banner.jpg);
-padding: 20px 8%;
-}
-.login-logo{
+/* Styles for the login container */
+.login {
+    height: 100vh;
+    background-image: linear-gradient(#0000007e, #0000007e), url(/background_banner.jpg);
+    padding: 20px 8%;
+  }
+  
+  /* Styles for the login logo */
+  .login-logo {
     width: 150px;
-}
-.login-form{
+  }
+  
+  /* Styles for the login form */
+  .login-form {
     width: 100%;
     max-width: 450px;
-    background: rgba(0, 0,0, 0.5);
+    background: rgba(0, 0, 0, 0.5);
     padding: 60px;
     border-radius: 4px;
     margin: auto;
-}
-.login-form h1{
+  }
+  
+  /* Styles for the login form heading */
+  .login-form h1 {
     font-size: 32px;
     font-weight: 500;
     margin-bottom: 38px;
-}
-.login-form input{
+  }
+  
+  /* Styles for login form inputs */
+  .login-form input {
     width: 100%;
     height: 50px;
     background: #333;
@@ -31,12 +40,16 @@ padding: 20px 8%;
     padding: 16px 20px;
     font-size: 16px;
     font-weight: 500;
-}
-.login-form input::placeholder{
+  }
+  
+  /* Styles for login form input placeholders */
+  .login-form input::placeholder {
     font-size: 16px;
     font-weight: 500;
-}
-.login-form button{
+  }
+  
+  /* Styles for login form button */
+  .login-form button {
     width: 100%;
     border: 0;
     outline: 0;
@@ -48,52 +61,67 @@ padding: 20px 8%;
     font-weight: 500;
     margin-top: 20px;
     cursor: pointer;
-}
-.form-help{
+  }
+  
+  /* Styles for form help section */
+  .form-help {
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: #b3b3b3;
     font-size: 13px;
-}
-.form-help .remember{
+  }
+  
+  /* Styles for remember section in form help */
+  .form-help .remember {
     display: flex;
     align-items: center;
     gap: 5px;
-}
-.remember input{
+  }
+  
+  /* Styles for remember input */
+  .remember input {
     width: 18px;
     height: 18px;
-}
-.form-switch{
+  }
+  
+  /* Styles for form switch section */
+  .form-switch {
     margin-top: 40px;
     color: #737373;
-}
-.form-switch span{
+  }
+  
+  /* Styles for form switch span */
+  .form-switch span {
     margin-left: 6px;
     color: #fff;
     font-weight: 500;
     cursor: pointer;
-}
-.login-spinner{
+  }
+  
+  /* Styles for login spinner */
+  .login-spinner {
     width: 100%;
     height: 100vh;
     align-items: center;
     justify-content: center;
     display: flex;
-}
-.login-spinner img{
+  }
+  
+  /* Styles for login spinner image */
+  .login-spinner img {
     width: 60px;
-}
-
-/*--------------media query----------------*/
-
-@media (max-width:500px){
-    .login{
-        padding: 15px 5%;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width:500px) {
+    .login {
+      padding: 15px 5%;
     }
-    .login-form{
-        padding: 20px;
-        margin-top: 30px;
+  
+    .login-form {
+      padding: 20px;
+      margin-top: 30px;
     }
-}
+  }
+  
